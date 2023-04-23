@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #1e0032;
+  color: #ecc220;
+  height: 80px;
+  display: flex;
+  gap: 200px;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  padding: 12px;
+}
+#nav-cta label {
+  border: solid 1px;
+  background-color: white;
+  border: none;
+  padding: 12px;
+}
+#nav-cta input {
+  border: none;
+  background-color: whitesmoke;
+  height: 25px;
+  border-radius: 3px;
+}
+input:focus {
+  outline: solid 2px #1e0032;
+}
+.lower-sect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: dimgrey;
+}
+.lower-sect h1{
+  padding: 0 0 0 0;
+  display: flex;
+  color: tomato;
+}
+#form-wrapper{
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 2rem 2vw;
+}
+label{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 4px;
+  background-color: white;
+  height: 30px;
+  padding: 5px;
+}
+input{
+  height: 20px;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+input:focus{
+  outline: solid 2px #fd7b01;
+}
+select{
+  height: 25px;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  background-color: whitesmoke;
+}
+select:focus{
+  outline: solid 2px #fd7b01;
+}
+textarea {
+  color: black;
+  font-weight: normal;
+  border-radius: 4px;
+  max-width: 900px;
+  max-height: 200px;
+  background-color: whitesmoke;
+}
+textarea:focus {
+  outline: solid 1px #fd7b01;
+}
+.sendAndClear-cta{
+  display: flex;
+  gap: 40px;
+  padding: 12px;
+}
+.sendAndClear-cta button{
+  font-weight: bold;
+  background-color: #fd7b01;
+  color: black;
+  border: none;
+  font-size: small;
+  width: 10rem;
+  height: 2rem;
+}
+.sendAndClear-cta button:hover{
+  background-color: #fd7b01d9;
+  cursor: pointer;
+}
+.sendAndClear-cta button:active{
+  background-color: blue;
+}
+.sendAndClear-cta input{
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.208);
+  color: red;
+  border: none;
+  font-size: small;
+  width: 8.5rem;
+  height: 2rem;
+  outline: none;
+}
+.sendAndClear-cta input:hover{
+  background-color: rgba(175, 224, 232, 0.665);
+  cursor: pointer;
+}
+.sendAndClear-cta input:active{
+  background-color: brown;
+}

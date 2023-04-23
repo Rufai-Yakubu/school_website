@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#nav-cta{
+   display: flex;
+   border: solid 1px;
+   height: 60px;
+   background-color: rgb(5, 5, 79);
+}
+#logo{
+    display: flex;
+    border: solid 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 3px;
+    color: green;
+    background-color: #ffff;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: auto;
+    gap: 12px;
+    padding: 5px;
+}
+.links:hover{
+    background-color: rgba(4, 118, 44, 0.537);
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+a:hover{
+    color: chartreuse;
+
+}
+main{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+section{
+    width: 100%;
+    height: 540px;
+    background-image: url(/files/skul_background/public-school-building-outside-19487859.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: chartreuse;
+    word-spacing: 10px;
+    text-shadow: 1px 3px 1px white;
+    font-size: 50px;
+}
+.rectangle-box{
+    background-color: #ffffff6e;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rectangle-box:hover{
+    background-color: #dd000a;
+    color: #ffe401;
+}
+
+
+#circles-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#circles-cta div{
+    border: solid 2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: chartreuse;
+    border-color: #ffff;
+}
+
+#admission-cta{
+    /* background-color: transparent; */
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+#admission-cta button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+}
+#admission-cta:hover{
+    background-color: transparent;
+}
+#admission-cta:hover #admission-links{
+    display: grid;
+}
+#admission-links{
+    color: green;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.54);
+    gap: 2px;
+    position: absolute;
+    right: 100%;
+    margin-top: -0.5rem;
+    z-index: 2;
+    padding: 5px 5px;
+}
+#admission-links a{
+    color: black;
+}
