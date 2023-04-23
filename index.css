@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: red;
+    /* background-color: red; */
 }
 #nav-cta{
    display: flex;
@@ -46,7 +46,7 @@ main{
 section{
     width: 100%;
     height: 540px;
-    background-image: url(/files/skul_background/public-school-building-outside-19487859.jpg);
+    background-image: url(/);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
